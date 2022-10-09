@@ -6,6 +6,8 @@ import ReanimatedIntro from '../Screens/ReanimatedIntro';
 import PanGestureHandlerBasic from "./../Screens/PanGestureHandlerBasic";
 import InterpolateWithScroll from '../Screens/InterpolateWithScroll';
 import PinchGestureBasic from "./../Screens/PinchGestureBasic";
+import TapGesture from "./../Screens/TapGesture";
+import ColorPickerBasic from "./../Screens/ColorPickerBasic";
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +20,8 @@ function Routes() {
                 <Stack.Screen name="Pan Gesture Handler Basic" component={PanGestureHandlerBasic} />
                 <Stack.Screen name="Interpolate" component={InterpolateWithScroll} />
                 <Stack.Screen name="Pinch Gesture Handler Basic" component={PinchGestureBasic} />
+                <Stack.Screen name="Tap Gesture" component={TapGesture} />
+                <Stack.Screen name="Color Picker" component={ColorPickerBasic} />
             </Stack.Navigator>
         </NavigationContainer>
     );

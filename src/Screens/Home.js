@@ -27,6 +27,19 @@ function Home({ navigation }) {
                 style={styles.buttonStyle}>
                 <Text>Pinch Gesture</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => { navigation.navigate('Tap Gesture') }}
+                style={styles.buttonStyle}>
+                <Text>Tap Gesture</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => { navigation.navigate('Color Picker') }}
+                style={styles.buttonStyle}>
+                <Text>Color Picker</Text>
+            </TouchableOpacity>
+
         </View>
 
     );
