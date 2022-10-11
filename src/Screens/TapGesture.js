@@ -4,7 +4,7 @@ import { Dimensions } from "react-native";
 import { GestureHandlerRootView, TapGestureHandler } from "react-native-gesture-handler";
 import Animated, { useAnimatedStyle, useSharedValue, withDelay, withSpring, withTiming } from 'react-native-reanimated';
 const backImage = "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80";
-const likeImage = "https://o.remove.bg/downloads/126381fe-84b4-413e-aa87-9039483a6a03/heart-image-13-removebg-preview.png";
+const likeImage = "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/heart-512.png";
 
 const { width: SIZE } = Dimensions.get('window');
 const AnimatedImage = Animated.createAnimatedComponent(Image);

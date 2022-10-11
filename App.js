@@ -1,13 +1,11 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import Routes from "./src/Navigation/Routes";
-import ColorPickerBasic from './src/Screens/ColorPickerBasic';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      {/* <Routes /> */}
-      <ColorPickerBasic />
+      <Routes />
     </View>
   )
 }

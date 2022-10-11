@@ -8,6 +8,8 @@ import InterpolateWithScroll from '../Screens/InterpolateWithScroll';
 import PinchGestureBasic from "./../Screens/PinchGestureBasic";
 import TapGesture from "./../Screens/TapGesture";
 import ColorPickerBasic from "./../Screens/ColorPickerBasic";
+import CircularProgressBarBasic from "./../Screens/CircularProgressBarBasic";
+import SwipeToDeleteBasic from '../Screens/SwipeToDeleteBasic';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +24,8 @@ function Routes() {
                 <Stack.Screen name="Pinch Gesture Handler Basic" component={PinchGestureBasic} />
                 <Stack.Screen name="Tap Gesture" component={TapGesture} />
                 <Stack.Screen name="Color Picker" component={ColorPickerBasic} />
+                <Stack.Screen name="Circular Progress" component={CircularProgressBarBasic} />
+                <Stack.Screen name="Swipe To Delete" component={SwipeToDeleteBasic} />
             </Stack.Navigator>
         </NavigationContainer>
     );

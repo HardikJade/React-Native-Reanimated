@@ -40,6 +40,18 @@ function Home({ navigation }) {
                 <Text>Color Picker</Text>
             </TouchableOpacity>
 
+            <TouchableOpacity
+                onPress={() => { navigation.navigate('Circular Progress') }}
+                style={styles.buttonStyle}>
+                <Text>Circular Progress</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => { navigation.navigate('Swipe To Delete') }}
+                style={styles.buttonStyle}>
+                <Text>Swipe Delete</Text>
+            </TouchableOpacity>
+
         </View>
 
     );
