@@ -52,6 +52,12 @@ function Home({ navigation }) {
                 <Text>Swipe Delete</Text>
             </TouchableOpacity>
 
+            <TouchableOpacity
+                onPress={() => { navigation.navigate('Ripple Animation') }}
+                style={styles.buttonStyle}>
+                <Text>Ripple Animation</Text>
+            </TouchableOpacity>
+
         </View>
 
     );

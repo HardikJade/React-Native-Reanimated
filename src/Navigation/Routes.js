@@ -10,6 +10,7 @@ import TapGesture from "./../Screens/TapGesture";
 import ColorPickerBasic from "./../Screens/ColorPickerBasic";
 import CircularProgressBarBasic from "./../Screens/CircularProgressBarBasic";
 import SwipeToDeleteBasic from '../Screens/SwipeToDeleteBasic';
+import RippleAnimation from "./../Screens/RippleAnimation";
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ function Routes() {
                 <Stack.Screen name="Color Picker" component={ColorPickerBasic} />
                 <Stack.Screen name="Circular Progress" component={CircularProgressBarBasic} />
                 <Stack.Screen name="Swipe To Delete" component={SwipeToDeleteBasic} />
+                <Stack.Screen name="Ripple Animation" component={RippleAnimation} />
             </Stack.Navigator>
         </NavigationContainer>
     );
